@@ -24,7 +24,7 @@ public sealed class MailgunEmailPlugin(IPluginSettingsStore settingsStore) : IMe
         Id: "mediapager.email.mailgun",
         Name: "Mailgun",
         Version: "0.1.0",
-        Author: "Nobugsgiven",
+        Author: "MediaPager",
         Description: "Send email through the Mailgun messages API.");
 
     public IReadOnlyList<PluginSettingDefinition> Settings { get; } =
