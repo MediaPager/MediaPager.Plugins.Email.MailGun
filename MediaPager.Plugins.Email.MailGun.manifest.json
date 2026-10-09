@@ -1,0 +1,9 @@
+{
+  "id": "mediapager.email.mailgun",
+  "name": "Mailgun",
+  "description": "Send email through the Mailgun messages API.",
+  "author": "Nobugsgiven",
+  "types": "email",
+  "sdk": "MediaPager.App.PluginContracts",
+  "sdkVersion": "0.1.0"
+}

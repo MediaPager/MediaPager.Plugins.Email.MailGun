@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>MediaPager.Plugins.Email.MailGun</RootNamespace>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <Description>Official Mailgun email provider plugin. References the plugin SDK only.</Description>
+    <PackageId>MediaPager.Plugins.Email.MailGun</PackageId>
+    <Version>0.1.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../MediaPager.App.PluginContracts/MediaPager.App.PluginContracts.csproj" />
+  </ItemGroup>
+
+</Project>
